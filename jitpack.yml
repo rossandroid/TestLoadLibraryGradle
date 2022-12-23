@@ -1,0 +1,3 @@
+install: 
+FILE="-Dfile=rossellalib-release.aar" 
+mvn install:install-file $FILE -DgroupId=com.rossella_morgante.rossellalib -DartifactId=test -Dversion=1.0 -Dpackaging=aar -DpomFile=pom.xml
